@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.2.0'
+    id 'org.springframework.boot' version '2.7.0'
     id 'io.spring.dependency-management' version '1.1.4'
 }
 
@@ -30,9 +30,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.xerial:sqlite-jdbc:3.34.0'
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
-    implementation("org.springframework.boot:spring-boot-starter-web") {
-        exclude group: "org.springframework.boot", module: "spring-boot-starter-logging"
-    }
+    implementation 'jakarta.platform:jakarta.jakartaee-api:9.1.0'
     implementation 'org.springframework.boot:spring-boot-starter-logging'
     implementation 'ch.qos.logback:logback-classic'
 }
