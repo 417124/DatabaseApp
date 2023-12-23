@@ -1,6 +1,6 @@
 package com.project.databaseapp.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Departments")

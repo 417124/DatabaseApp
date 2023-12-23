@@ -1,4 +1,4 @@
-package com.project.databaseapp.config.database;
+package com.project.databaseapp.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
